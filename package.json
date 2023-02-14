@@ -1,6 +1,7 @@
 {
   "name": "cn.vuejs.org-api",
   "version": "1.0.0",
+  "description": "[Vue3 官网》API](https://cn.vuejs.org/api) - 学习",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
