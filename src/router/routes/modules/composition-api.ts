@@ -19,6 +19,16 @@ const COMPOSITION_API_ROUTE: AppRouteRecordRaw = {
         title: "响应式：核心",
       },
     },
+
+    {
+      path: "reactivity-utilities",
+      name: "Reactivity-utilitiesPage",
+      component: () =>
+        import("@/views/composition-api/reactivity-utilities.vue"),
+      meta: {
+        title: "响应式：工具",
+      },
+    },
   ],
 };
 
