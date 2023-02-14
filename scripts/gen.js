@@ -38,8 +38,8 @@ class Gen {
     // 全小写
     this.lowerNames = this.names.map(lowerName);
 
-    // 全大写
-    this.upperNames = this.names.map(upperName);
+    // 全大写（并且将正则中 \w 以外字符，替换成下划线）
+    this.upperNames = this.names.map(upperName).map(_ => _.replace(/\W/gi, '_'));
 
     // 大驼峰
     this.capitalNames = this.names.map(capitalName);
