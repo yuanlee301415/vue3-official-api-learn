@@ -48,6 +48,16 @@ const COMPOSITION_API_ROUTE: AppRouteRecordRaw = {
         title: "生命周期钩子",
       },
     },
+
+    {
+      path: "dependency-injection",
+      name: "DependencyInjectionPage",
+      component: () =>
+        import("@/views/composition-api/dependency-injection.vue"),
+      meta: {
+        title: "依赖注入",
+      },
+    },
   ],
 };
 
