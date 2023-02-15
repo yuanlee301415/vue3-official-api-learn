@@ -29,16 +29,26 @@ const COMPOSITION_API_ROUTE: AppRouteRecordRaw = {
         title: "响应式：工具",
       },
     },
-  
-	{
+
+    {
       path: "reactivity-advanced",
       name: "Reactivity-advancedPage",
-      component: () => import("@/views/composition-api/reactivity-advanced.vue"),
+      component: () =>
+        import("@/views/composition-api/reactivity-advanced.vue"),
       meta: {
-        title: "响应式：进阶"
-      }
-    }
-	],
+        title: "响应式：进阶",
+      },
+    },
+
+    {
+      path: "lifecycle",
+      name: "LifecyclePage",
+      component: () => import("@/views/composition-api/lifecycle.vue"),
+      meta: {
+        title: "生命周期钩子",
+      },
+    },
+  ],
 };
 
 export default COMPOSITION_API_ROUTE;
