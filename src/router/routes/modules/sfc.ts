@@ -19,6 +19,15 @@ const SFC_ROUTE: AppRouteRecordRaw = {
         title: "<script setup>",
       },
     },
+
+    {
+      path: "css",
+      name: "CssPage",
+      component: () => import("@/views/sfc/css.vue"),
+      meta: {
+        title: "CSS 功能",
+      },
+    },
   ],
 };
 

@@ -43,7 +43,6 @@ class Gen {
 
     // 大驼峰（并以正则 \W 分隔字符，且转换为大驼峰）
     this.capitalNames = this.names.map(_ => _.split(/\W/).map(capitalName).join(''));
-    console.log('capitalNames:', this.capitalNames)
 
     // 目录
     // 非嵌套路由此值为：空
