@@ -28,6 +28,15 @@ const EXAMPLES_ROUTE: AppRouteRecordRaw = {
         title: "排序和过滤器网格",
       },
     },
+
+    {
+      path: "tree",
+      name: "TreePage",
+      component: () => import("@/views/examples/tree.vue"),
+      meta: {
+        title: "树",
+      },
+    },
   ],
 };
 
