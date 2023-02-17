@@ -1,6 +1,6 @@
 <template>
   <ul class="tree">
-    <li v-for="(item, idx) of modelValue" :key="idx">
+    <li v-for="(item, idx) of treeData" :key="idx">
       <template v-if="item.children && item.children.length">
         <div @click="handleToggleVisible(item)">
           <b>{{ item.name }}</b>
@@ -9,13 +9,13 @@
           >
         </div>
         <Tree
-          :modelValue="item.children"
+          v-model="item.children"
           :style="{ display: item.__visible ? 'block' : 'none' }"
         />
       </template>
       <div v-else>{{ item.name }}</div>
     </li>
-    <li @click="handleAdd(modelValue)">
+    <li @click="handleAdd(treeData)">
       <div class="add">+</div>
     </li>
   </ul>
@@ -28,9 +28,10 @@ export default {
 </script>
 <script setup lang="ts">
 import type { TreeData } from "@/components/Tree";
+import { computed } from "vue";
 import { TreeItem } from "@/components/Tree";
 
-defineProps<{
+const props = defineProps<{
   modelValue: TreeData;
 }>();
 
@@ -38,11 +39,21 @@ const emit = defineEmits<{
   (e: "update:modelValue", value: TreeData): void;
 }>();
 
-function handleAdd(model: TreeData) {
-  model.push(
+const treeData = computed({
+  get() {
+    return props.modelValue;
+  },
+  set(val) {
+    console.log("set>treeData:", val);
+    emit("update:modelValue", val);
+  },
+});
+
+function handleAdd(tree: TreeData) {
+  tree.push(
     new TreeItem({ name: "New item - " + ((Math.random() * 10000) | 0) })
   );
-  emit("update:modelValue", model);
+  treeData.value = [...treeData.value];
 }
 
 function handleToggleVisible(item: TreeItem) {

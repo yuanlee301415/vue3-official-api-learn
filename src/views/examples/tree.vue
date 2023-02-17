@@ -32,9 +32,5 @@ const treeData: TreeData = reactive([
   },
 ]);
 
-setTimeout(() => {
-  treeData.push({ name: "Async Item - 1" });
-  treeData.push({ name: "Async Item - 2" });
-  treeData.push({ name: "Async Item - 3" });
-}, 1000);
+watch(treeData, () => console.log("watch>treeData", treeData));
 </script>
