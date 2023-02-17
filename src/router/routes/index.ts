@@ -7,6 +7,7 @@ import GLOBAL_API_ROUTE from "@/router/routes/modules/global-api";
 import COMPOSITION_API_ROUTE from "@/router/routes/modules/composition-api";
 import BUILT_IN_ROUTE from "@/router/routes/modules/built-in";
 import SFC_ROUTE from "@/router/routes/modules/sfc";
+import EXAMPLES_ROUTE from "@/router/routes/modules/examples";
 // import NESTED_ROUTE from "@/router/routes/modules/nested";
 
 export const ROOT_ROUTE: AppRouteRecordRaw = {
@@ -66,6 +67,7 @@ export const basicRoutes = [
   COMPOSITION_API_ROUTE,
   BUILT_IN_ROUTE,
   SFC_ROUTE,
+  EXAMPLES_ROUTE,
   // NESTED_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
 ];

@@ -1,0 +1,239 @@
+[
+  {
+    "sha": "c27f01bc744658f2584c954cfc8948b19f972603",
+    "node_id": "MDY6Q29tbWl0MTM3MDc4NDg3OmMyN2YwMWJjNzQ0NjU4ZjI1ODRjOTU0Y2ZjODk0OGIxOWY5NzI2MDM=",
+    "commit": {
+      "author": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T16:29:51Z"
+      },
+      "committer": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T16:29:51Z"
+      },
+      "message": "wip: tests for global config compat",
+      "tree": {
+        "sha": "3b7aceaf2bc69634e709b4914b8626a2d13e82b7",
+        "url": "https://api.github.com/repos/vuejs/core/git/trees/3b7aceaf2bc69634e709b4914b8626a2d13e82b7"
+      },
+      "url": "https://api.github.com/repos/vuejs/core/git/commits/c27f01bc744658f2584c954cfc8948b19f972603",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/vuejs/core/commits/c27f01bc744658f2584c954cfc8948b19f972603",
+    "html_url": "https://github.com/vuejs/core/commit/c27f01bc744658f2584c954cfc8948b19f972603",
+    "comments_url": "https://api.github.com/repos/vuejs/core/commits/c27f01bc744658f2584c954cfc8948b19f972603/comments",
+    "author": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "ce0bbe053abaf8ba18de8baf535e175048596ee5",
+        "url": "https://api.github.com/repos/vuejs/core/commits/ce0bbe053abaf8ba18de8baf535e175048596ee5",
+        "html_url": "https://github.com/vuejs/core/commit/ce0bbe053abaf8ba18de8baf535e175048596ee5"
+      }
+    ]
+  },
+  {
+    "sha": "ce0bbe053abaf8ba18de8baf535e175048596ee5",
+    "node_id": "MDY6Q29tbWl0MTM3MDc4NDg3OmNlMGJiZTA1M2FiYWY4YmExOGRlOGJhZjUzNWUxNzUwNDg1OTZlZTU=",
+    "commit": {
+      "author": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T15:35:59Z"
+      },
+      "committer": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T15:40:16Z"
+      },
+      "message": "feat: support component-level `compilerOptions` when using runtime compiler\n\n- The `delimiters` component option is deprecated.\n  Use `compilerOptions.delimiters` instead.",
+      "tree": {
+        "sha": "d0a2f58a80cac061cd00fbde766ab2c916e69a8f",
+        "url": "https://api.github.com/repos/vuejs/core/git/trees/d0a2f58a80cac061cd00fbde766ab2c916e69a8f"
+      },
+      "url": "https://api.github.com/repos/vuejs/core/git/commits/ce0bbe053abaf8ba18de8baf535e175048596ee5",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/vuejs/core/commits/ce0bbe053abaf8ba18de8baf535e175048596ee5",
+    "html_url": "https://github.com/vuejs/core/commit/ce0bbe053abaf8ba18de8baf535e175048596ee5",
+    "comments_url": "https://api.github.com/repos/vuejs/core/commits/ce0bbe053abaf8ba18de8baf535e175048596ee5/comments",
+    "author": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "e4862544310a4187dfc8b3a49944700888bb60e3",
+        "url": "https://api.github.com/repos/vuejs/core/commits/e4862544310a4187dfc8b3a49944700888bb60e3",
+        "html_url": "https://github.com/vuejs/core/commit/e4862544310a4187dfc8b3a49944700888bb60e3"
+      }
+    ]
+  },
+  {
+    "sha": "e4862544310a4187dfc8b3a49944700888bb60e3",
+    "node_id": "MDY6Q29tbWl0MTM3MDc4NDg3OmU0ODYyNTQ0MzEwYTQxODdkZmM4YjNhNDk5NDQ3MDA4ODhiYjYwZTM=",
+    "commit": {
+      "author": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T15:22:16Z"
+      },
+      "committer": {
+        "name": "Evan You",
+        "email": "yyx990803@gmail.com",
+        "date": "2021-04-28T15:22:16Z"
+      },
+      "message": "fix(compiler-core): preserve comment content in production when comments option is enabled",
+      "tree": {
+        "sha": "3327338ec5f05787b4f2100bef0d03e1598b90f1",
+        "url": "https://api.github.com/repos/vuejs/core/git/trees/3327338ec5f05787b4f2100bef0d03e1598b90f1"
+      },
+      "url": "https://api.github.com/repos/vuejs/core/git/commits/e4862544310a4187dfc8b3a49944700888bb60e3",
+      "comment_count": 1,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/vuejs/core/commits/e4862544310a4187dfc8b3a49944700888bb60e3",
+    "html_url": "https://github.com/vuejs/core/commit/e4862544310a4187dfc8b3a49944700888bb60e3",
+    "comments_url": "https://api.github.com/repos/vuejs/core/commits/e4862544310a4187dfc8b3a49944700888bb60e3/comments",
+    "author": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "yyx990803",
+      "id": 499550,
+      "node_id": "MDQ6VXNlcjQ5OTU1MA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/499550?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/yyx990803",
+      "html_url": "https://github.com/yyx990803",
+      "followers_url": "https://api.github.com/users/yyx990803/followers",
+      "following_url": "https://api.github.com/users/yyx990803/following{/other_user}",
+      "gists_url": "https://api.github.com/users/yyx990803/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/yyx990803/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/yyx990803/subscriptions",
+      "organizations_url": "https://api.github.com/users/yyx990803/orgs",
+      "repos_url": "https://api.github.com/users/yyx990803/repos",
+      "events_url": "https://api.github.com/users/yyx990803/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/yyx990803/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "1d1af403ca5af14a7c722e8a07d7aa46688bffa9",
+        "url": "https://api.github.com/repos/vuejs/core/commits/1d1af403ca5af14a7c722e8a07d7aa46688bffa9",
+        "html_url": "https://github.com/vuejs/core/commit/1d1af403ca5af14a7c722e8a07d7aa46688bffa9"
+      }
+    ]
+  }
+]

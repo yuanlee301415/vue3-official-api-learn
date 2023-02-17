@@ -1,11 +1,13 @@
 import { createApp, version } from "vue";
+console.log("vue.version:", version);
+
+import * as vue from "vue";
+console.log("vue:", vue);
 
 import App from "./App.vue";
 import { setupRouter } from "./router";
 import { setupStore } from "@/store";
 import "./assets/main.less";
-
-console.log("version:", version);
 
 function bootstrap() {
   const app = createApp(App);
