@@ -37,7 +37,7 @@
 </template>
 
 <script lang="ts" setup>
-import { reactive, ref, watchEffect } from "vue";
+import { ref, watchEffect } from "vue";
 
 const API_URL = `./mock-data/`;
 const branches = ["main", "v2-compat"];

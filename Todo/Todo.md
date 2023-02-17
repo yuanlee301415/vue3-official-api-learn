@@ -1,1 +1,2 @@
 - [ ] 将 `gen.js` 同步到 `Vue3-TS-Template`
+- [ ] 修复构建时类型错误

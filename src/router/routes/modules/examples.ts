@@ -19,6 +19,23 @@ const EXAMPLES_ROUTE: AppRouteRecordRaw = {
         title: "获取数据",
       },
     },
+    {
+      path: "grid",
+      name: "GridPage",
+      component: () => import("@/views/examples/grid.vue"),
+      meta: {
+        title: "排序和过滤器网格",
+      },
+    },
+
+    {
+      path: "tree",
+      name: "TreePage",
+      component: () => import("@/views/examples/tree.vue"),
+      meta: {
+        title: "树",
+      },
+    },
   ],
 };
 
