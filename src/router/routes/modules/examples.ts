@@ -54,6 +54,15 @@ const EXAMPLES_ROUTE: AppRouteRecordRaw = {
         title: "TodoMVC",
       },
     },
+
+    {
+      path: "use-todomvc",
+      name: "UseTodomvcPage",
+      component: () => import("@/views/examples/use-todomvc.vue"),
+      meta: {
+        title: "UseTodoMVC",
+      },
+    },
   ],
 };
 
