@@ -63,6 +63,15 @@ const EXAMPLES_ROUTE: AppRouteRecordRaw = {
         title: "UseTodoMVC",
       },
     },
+
+    {
+      path: "crud",
+      name: "CrudPage",
+      component: () => import("@/views/examples/crud.vue"),
+      meta: {
+        title: "CRUD",
+      },
+    },
   ],
 };
 
