@@ -8,6 +8,7 @@ import COMPOSITION_API_ROUTE from "@/router/routes/modules/composition-api";
 import BUILT_IN_ROUTE from "@/router/routes/modules/built-in";
 import SFC_ROUTE from "@/router/routes/modules/sfc";
 import EXAMPLES_ROUTE from "@/router/routes/modules/examples";
+import SHALLOWREF_ROUTE from "@/router/routes/modules/shallowref";
 // import NESTED_ROUTE from "@/router/routes/modules/nested";
 
 export const ROOT_ROUTE: AppRouteRecordRaw = {
@@ -68,6 +69,7 @@ export const basicRoutes = [
   BUILT_IN_ROUTE,
   SFC_ROUTE,
   EXAMPLES_ROUTE,
+  SHALLOWREF_ROUTE,
   // NESTED_ROUTE,
   PAGE_NOT_FOUND_ROUTE,
 ];
